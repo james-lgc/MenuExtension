@@ -1,0 +1,8 @@
+{
+    "name": "DSA.Extensions.Menus",
+    "references": [
+        "DSA.Extensions.Base"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": []
+}
