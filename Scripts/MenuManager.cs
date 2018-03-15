@@ -11,7 +11,7 @@ namespace MenuSystem
 	{
 		[SerializeField] private ManagerBase[] instructionLinkedManagers;
 		[SerializeField] private MenuInstructionHolder[] instructionHolders;
-		public override ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.Menu; } }
+		public override ExtensionEnum Extension { get { return ExtensionEnum.Menu; } }
 		[SerializeField] private ManagerBase finalEndManager;
 
 		public override void Initialize()

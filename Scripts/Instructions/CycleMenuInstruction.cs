@@ -8,7 +8,7 @@ using DSA.Extensions.Base;
 [System.Serializable]
 public class CycleMenuInstruction : MenuInstruction
 {
-	public override ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.Menu; } }
+	public override ExtensionEnum Extension { get { return ExtensionEnum.Menu; } }
 
 	[SerializeField] private int holderIndex;
 	public int HolderIndex { get { return holderIndex; } }

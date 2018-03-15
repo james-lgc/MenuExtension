@@ -11,7 +11,7 @@ namespace MenuSystem
 	[System.Serializable]
 	public class PauseCanvas : ClickableCanvas, IProcessor<MenuInstruction>, IReceivable<int, MenuInstructionHolder>
 	{
-		public override ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.Menu; } }
+		public override ExtensionEnum Extension { get { return ExtensionEnum.Menu; } }
 
 		private MenuInstructionHolder instructionHolder;
 
@@ -87,7 +87,7 @@ namespace MenuSystem
 				DisplayData();
 				return;
 			}
-			else if (sentItem.Extension == ExtensionEnum.Extension.GamePlay)
+			else if (sentItem.Extension == ExtensionEnum.GamePlay)
 			{
 				instructionHolder.SetSelectionIndex(0);
 			}

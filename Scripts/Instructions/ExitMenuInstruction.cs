@@ -8,7 +8,7 @@ using DSA.Extensions.Base;
 [System.Serializable]
 public class ExitMenuInstruction : MenuInstruction
 {
-	public override ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.Menu; } }
+	public override ExtensionEnum Extension { get { return ExtensionEnum.Menu; } }
 
 	public override void Use()
 	{

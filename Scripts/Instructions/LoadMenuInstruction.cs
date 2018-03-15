@@ -8,5 +8,5 @@ using DSA.Extensions.Base;
 [System.Serializable]
 public class LoadMenuInstruction : MenuInstruction, ISendable
 {
-	public override ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.Load; } }
+	public override ExtensionEnum Extension { get { return ExtensionEnum.Load; } }
 }

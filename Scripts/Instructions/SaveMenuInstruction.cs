@@ -8,7 +8,7 @@ using DSA.Extensions.Base;
 [System.Serializable]
 public class SaveMenuInstruction : MenuInstruction, ISendable
 {
-	public override ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.Save; } }
+	public override ExtensionEnum Extension { get { return ExtensionEnum.Save; } }
 
 	public override void Use()
 	{

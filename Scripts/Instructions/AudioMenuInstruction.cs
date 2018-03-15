@@ -8,5 +8,5 @@ using DSA.Extensions.Base;
 [System.Serializable]
 public class AudioMenuInstruction : MenuInstruction
 {
-	public override ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.Audio; } }
+	public override ExtensionEnum Extension { get { return ExtensionEnum.Audio; } }
 }

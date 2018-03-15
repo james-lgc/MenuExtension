@@ -7,7 +7,7 @@ using DSA.Extensions.Base;
 
 public class MenuButton : UIButtonBase, ISettable<MenuInstruction>, ISendable<MenuInstruction>
 {
-	public override ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.Menu; } }
+	public override ExtensionEnum Extension { get { return ExtensionEnum.Menu; } }
 
 	public Action<MenuInstruction> SendAction { get; set; }
 
